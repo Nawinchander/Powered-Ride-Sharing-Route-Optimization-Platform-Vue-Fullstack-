@@ -25,7 +25,44 @@ Matching Algorithms
 This is extremely close to actual FAANG interview discussions.
 
 
+Tech Stack
+Frontend
+Vue.js
+Pinia
+Vue Router
+Axios>
+Socket.IO Client
 
+Backend
+Node.js
+Express
+MongoDB
+Redis
+BullMQ
+Socket.IO
+Docker
+
+
+
+Phase 1 — Features
+
+Rider Features
+Login/Register
+Search pickup location
+Search destination
+View nearby drivers
+Live driver tracking
+Ride history
+Ratings
+Driver Features
+Go Online/Offline
+Accept ride request
+Navigation updates
+Earnings dashboard
+Admin Features
+Surge pricing control
+Driver management
+Fraud detection dashboard
 
 
 
