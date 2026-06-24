@@ -1,0 +1,31 @@
+FAANG-Level Vue.js + Node.js Project (JavaScript Only)
+
+Since you've already explored Smart Commerce & Inventory, here's another project that is highly valued in interviews and allows you to showcase Vue.js, Node.js, DSA, System Design, Scalability, Real-time Communication, Caching, and Distributed Systems.
+
+
+Project: AI-Powered Ride Sharing & Route Optimization Platform
+
+Think of it as a simplified combination of:
+
+Uber
+Lyft
+Ola
+
+This project demonstrates:
+
+Graph Algorithms
+Priority Queues
+Geospatial Search
+Real-time Systems
+WebSockets
+Distributed Queue Processing
+Dynamic Pricing
+Matching Algorithms
+
+This is extremely close to actual FAANG interview discussions.
+
+
+
+
+
+
