@@ -1,0 +1,68 @@
+ride-sharing-platform/
+
+├── frontend/
+│
+│   ├── src/
+│   │
+│   ├── assets/
+│   │
+│   ├── api/
+│   │   ├── auth.api.js
+│   │   ├── ride.api.js
+│   │   ├── driver.api.js
+│   │   └── payment.api.js
+│   │
+│   ├── router/
+│   │   └── index.js
+│   │
+│   ├── stores/
+│   │   ├── auth.store.js
+│   │   ├── ride.store.js
+│   │   └── driver.store.js
+│   │
+│   ├── composables/
+│   │   ├── useSocket.js
+│   │   ├── useDebounce.js
+│   │   └── useGeoLocation.js
+│   │
+│   ├── components/
+│   │   ├── map/
+│   │   ├── driver/
+│   │   ├── ride/
+│   │   └── common/
+│   │
+│   ├── views/
+│   │   ├── Login.vue
+│   │   ├── Dashboard.vue
+│   │   ├── BookRide.vue
+│   │   ├── RideTracking.vue
+│   │   ├── DriverPanel.vue
+│   │   └── AdminDashboard.vue
+│   │
+│   ├── App.vue
+│   └── main.js
+│
+├── backend/
+│
+│   ├── src/
+│   │
+│   │   ├── config/
+│   │   ├── routes/
+│   │   ├── controllers/
+│   │   ├── services/
+│   │   ├── repositories/
+│   │   ├── middleware/
+│   │   ├── models/
+│   │   ├── sockets/
+│   │   ├── queues/
+│   │   ├── workers/
+│   │   ├── algorithms/
+│   │   ├── events/
+│   │   └── utils/
+│   │
+│   └── server.js
+│
+└── docker-compose.yml
+
+
+
