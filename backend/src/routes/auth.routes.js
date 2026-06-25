@@ -1,5 +1,18 @@
-// routes/auth.routes.js
+const router = require("express").Router();
 
-router.post("/register", registerUser);
-router.post("/login", loginUser);
-router.post("/refresh-token", refreshToken);
+const authController =
+require("../controllers/auth.controller");
+
+router.post(
+    "/register",
+    authController.register
+);
+
+router.post(
+    "/login",
+    authController.login
+);
+
+module.exports = router;
+
+
