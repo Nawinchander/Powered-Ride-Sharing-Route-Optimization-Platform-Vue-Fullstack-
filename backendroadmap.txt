@@ -1,0 +1,44 @@
+Project Roadmap
+
+Phase 1 — Foundation
+Authentication
+User Roles
+Project Setup
+Database Connection
+Folder Structure
+
+Phase 2 — Rider Module
+Book Ride
+View Nearby Drivers
+Ride History
+
+Phase 3 — Driver Module
+Driver Availability
+Accept Ride
+Location Updates
+
+Phase 4 — Real-Time Communication
+WebSocket Events
+Live Tracking
+
+Phase 5 — DSA Layer
+Priority Queue
+Trie
+LRU Cache
+Dijkstra
+
+Phase 6 — Scaling
+Redis Cache
+BullMQ Jobs
+Rate Limiting
+
+Phase 7 — Testing
+Unit
+Integration
+E2E
+Load Testing
+
+
+
+
+
