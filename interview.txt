@@ -1,0 +1,12 @@
+Interview Questions
+Why hash passwords?
+
+Passwords should never be stored in plaintext because database breaches would expose user credentials.
+
+Why JWT instead of sessions?
+
+JWT scales better in distributed systems because the server does not need to maintain session state.
+
+Why Repository Pattern?
+
+Repositories separate business logic from database logic which improves testability and maintainability.
