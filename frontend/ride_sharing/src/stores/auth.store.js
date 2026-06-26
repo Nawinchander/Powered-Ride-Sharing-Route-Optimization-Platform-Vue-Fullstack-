@@ -1,0 +1,29 @@
+import { defineStore } from "pinia";
+
+import api from "../api/auth.api";
+
+export const useAuthStore =
+defineStore("auth", {
+
+    state: () => ({
+        token: null
+    }),
+
+    actions: {
+
+        async login(email, password) {
+
+            const response =
+                await api.post(
+                    "/auth/login",
+                    {
+                        email,
+                        password
+                    }
+                );
+
+            this.token =
+                response.data.token;
+        }
+    }
+});
