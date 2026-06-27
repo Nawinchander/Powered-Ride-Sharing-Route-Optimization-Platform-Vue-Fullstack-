@@ -10,3 +10,21 @@ JWT scales better in distributed systems because the server does not need to mai
 Why Repository Pattern?
 
 Repositories separate business logic from database logic which improves testability and maintainability.
+
+
+Interview Questions
+
+Why use Pinia instead of Vuex?
+
+Smaller API
+Better tree shaking
+Better Composition API support
+Less boilerplate
+
+Why separate API files from stores?
+
+API files handle network communication while stores manage application state.
+
+Why use composables?
+
+Composable functions improve code reuse and separation of concerns.
