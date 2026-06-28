@@ -104,3 +104,37 @@ src/
 
 
 
+
+backend/
+│
+├── src/
+│
+├── config/
+│   ├── db.js
+│   ├── redis.js
+│   ├── socket.js
+│   └── env.js
+│
+├── controllers/
+│   ├── auth.controller.js
+│   ├── ride.controller.js
+│   ├── driver.controller.js
+│   └── tracking.controller.js
+│
+├── middleware/
+│   ├── auth.middleware.js
+│   ├── role.middleware.js
+│   ├── rateLimiter.middleware.js
+│   └── error.middleware.js
+│
+├── models/
+│   ├── User.js
+│   ├── Ride.js
+│   ├── DriverLocation.js
+│   └── RefreshToken.js
+│
+├── services/
+│   ├── auth.service.js
+│   ├── tracking
+
+
