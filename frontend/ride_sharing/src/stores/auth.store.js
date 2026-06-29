@@ -1,29 +1,66 @@
-import { defineStore } from "pinia";
 
-import api from "../api/auth.api";
+import { defineStore }
+from "pinia";
+
+import api
+from "../api/auth.api";
 
 export const useAuthStore =
-defineStore("auth", {
-
+defineStore(
+"auth",
+{
     state: () => ({
-        token: null
+        token: null,
+        user: null
     }),
 
     actions: {
 
-        async login(email, password) {
+        async login(
+            email,
+            password
+        ) {
 
             const response =
-                await api.post(
-                    "/auth/login",
-                    {
-                        email,
-                        password
-                    }
-                );
+            await api.post(
+                "/auth/login",
+                {
+                    email,
+                    password
+                }
+            );
 
             this.token =
-                response.data.token;
+            response.data.accessToken;
         }
     }
 });
+// import { defineStore } from "pinia";
+
+// import api from "../api/auth.api";
+
+// export const useAuthStore =
+// defineStore("auth", {
+
+//     state: () => ({
+//         token: null
+//     }),
+
+//     actions: {
+
+//         async login(email, password) {
+
+//             const response =
+//                 await api.post(
+//                     "/auth/login",
+//                     {
+//                         email,
+//                         password
+//                     }
+//                 );
+
+//             this.token =
+//                 response.data.token;
+//         }
+//     }
+// });
