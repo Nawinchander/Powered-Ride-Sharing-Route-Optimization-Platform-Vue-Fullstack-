@@ -1,39 +1,20 @@
-import {
-defineStore
-}
-from "pinia";
+import { defineStore } from "pinia";
 
-export const
-useTrackingStore =
-defineStore(
-"tracking",
+export const useTrackingStore = defineStore( "tracking",
 {
 state: () => ({
     drivers: []
 }),
 
-actions: {
+actions: { updateDriver( location ) {
 
-updateDriver(
-location
-) {
-
-const index =
-this.drivers
-.findIndex(
-d =>
-d.driverId ===
-location.driverId
-);
+const index = this.drivers.findIndex( d => d.driverId === location.driverId );
 
 if(index >= 0){
-    this.drivers[index] =
-    location;
+    this.drivers[index] = location;
 }
 else{
-    this.drivers.push(
-        location
-    );
+    this.drivers.push(location);
 }
 
 }
