@@ -3,14 +3,7 @@
 <div>
 
 <DriverMarker
-v-for="
-driver
-in store.drivers
-"
-:key="
-driver.driverId
-"
-:driver="driver"
+v-for = " driver in store.drivers " :key= "driver.driverId " :driver="driver"
 />
 
 </div>
@@ -19,30 +12,17 @@ driver.driverId
 
 <script setup>
 
-import DriverMarker
-from
-"../components/tracking/DriverMarker.vue";
+import DriverMarker from "../components/tracking/DriverMarker.vue";
 
-import {
-onMounted
-}
-from "vue";
+import { onMounted } from "vue";
 
-import useSocket
-from
-"../composables/useSocket";
+import useSocket from "../composables/useSocket";
 
-import {
-useTrackingStore
-}
-from
-"../stores/tracking.store";
+import { useTrackingStore } from "../stores/tracking.store";
 
-const socket =
-useSocket();
+const socket = useSocket();
 
-const store =
-useTrackingStore();
+const store = useTrackingStore();
 
 onMounted(() => {
 
@@ -50,10 +30,7 @@ socket.on(
 "location-updated",
 (location) => {
 
-store.updateDriver(
-location
-);
-
+store.updateDriver( location ); 
 });
 
 });
