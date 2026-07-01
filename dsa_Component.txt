@@ -35,3 +35,15 @@ Search:
 O(length of word)
 
 
+LRU Cache
+backend/
+└── algorithms/
+    └── LRUCache.js
+
+Used for:
+
+Frequently searched routes
+ETA calculations
+Popular destinations
+
+
