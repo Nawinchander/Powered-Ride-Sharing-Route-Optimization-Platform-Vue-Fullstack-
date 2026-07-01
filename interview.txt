@@ -28,3 +28,23 @@ API files handle network communication while stores manage application state.
 Why use composables?
 
 Composable functions improve code reuse and separation of concerns.
+
+
+Interview Questions
+Authentication
+Why use Access Token and Refresh Token together?
+
+Access tokens should be short-lived for security, while refresh tokens allow seamless re-authentication without forcing users to log in repeatedly.
+
+Why not store JWT in Local Storage?
+
+Local storage is vulnerable to XSS attacks. Secure HTTP-only cookies are generally safer for production applications.
+
+Why RBAC instead of hardcoded permissions?
+
+Role-based access control scales much better as applications grow and more user roles are introduced.
+
+Live Tracking
+Why use WebSockets instead of polling?
+
+
