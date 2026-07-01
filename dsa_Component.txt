@@ -1,0 +1,19 @@
+DSA COMPONENTS
+
+Priority Queue
+
+backend/
+└── algorithms/
+    └── PriorityQueue.js
+
+Used for:
+
+Closest driver
+Highest rated driver
+Least busy driver
+
+Complexity:
+
+Insert: O(log n)
+
+Remove: O(log n)
