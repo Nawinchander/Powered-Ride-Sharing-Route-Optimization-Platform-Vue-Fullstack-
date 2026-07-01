@@ -46,5 +46,17 @@ Role-based access control scales much better as applications grow and more user 
 
 Live Tracking
 Why use WebSockets instead of polling?
+Why use WebSockets instead of polling?
+
+Polling sends repeated requests regardless of whether data changes, while WebSockets provide real-time bidirectional communication with lower latency and lower server load.
+
+Why store driver locations in Redis instead of MongoDB?
+
+Driver locations update every few seconds. Redis handles high-frequency writes and reads significantly better than disk-based databases.
+
+How would you scale Socket servers horizontally?
+
+Using the Redis Pub/Sub adapter with multiple Socket.IO instances behind a load balancer.
+
 
 
