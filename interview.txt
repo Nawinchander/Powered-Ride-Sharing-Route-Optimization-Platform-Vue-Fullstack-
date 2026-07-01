@@ -60,3 +60,18 @@ Using the Redis Pub/Sub adapter with multiple Socket.IO instances behind a load 
 
 
 
+Vue.js
+Why use composables?
+
+Composables allow reusable business logic across multiple components without inheritance or mixins.
+
+Why use a store instead of component state?
+
+Global application state such as authentication and tracking data should remain centralized to avoid prop drilling and inconsistent state.
+
+Backend
+Why use Repository Pattern?
+
+It separates business logic from persistence logic and makes unit testing significantly ea
+
+
