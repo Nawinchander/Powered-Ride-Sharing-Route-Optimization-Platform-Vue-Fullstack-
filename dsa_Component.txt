@@ -17,3 +17,21 @@ Complexity:
 Insert: O(log n)
 
 Remove: O(log n)
+
+
+backend/
+└── algorithms/
+    └── Trie.js
+
+Used for:
+
+City search
+Address autocomplete
+Airport suggestions
+
+Complexity:
+
+Search:
+O(length of word)
+
+
