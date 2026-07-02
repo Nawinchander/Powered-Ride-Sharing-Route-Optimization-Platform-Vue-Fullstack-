@@ -1,0 +1,40 @@
+Rider Requests Ride
+        ↓
+Ride Created
+        ↓
+Nearby Drivers Search
+        ↓
+Driver Assigned
+        ↓
+Ride Accepted
+        ↓
+Ride Started
+        ↓
+Ride Completed
+
+
+backend/
+└── src/
+    │
+    ├── models/
+    │   └── Ride.js
+    │
+    ├── controllers/
+    │   └── ride.controller.js
+    │
+    ├── services/
+    │   └── ride.service.js
+    │
+    ├── repositories/
+    │   └── ride.repository.js
+    │
+    ├── routes/
+    │   └── ride.routes.js
+    │
+    ├── middleware/
+    │   └── validateRide.middleware.js
+    │
+    └── sockets/
+        └── ride.socket.js
+
+
