@@ -1,32 +1,20 @@
-module.exports =
-(io) => {
+module.exports = (io) => {
 
-io.on(
-"connection",
-(socket) => {
+    io.on( "connection", (socket) => {
 
-socket.on(
-"ride-request",
-(ride) => {
-
-io.emit(
-"new-ride-request",
-ride
-);
+socket.on( "ride-request",
+(ride) => {  io.emit( "new-ride-request", ride );
 
 });
 
-socket.on(
-"driver-accepted",
-(data) => {
+socket.on( "driver-accepted", (data) => {
 
-io.emit(
-"ride-accepted",
-data
-);
+io.emit( "ride-accepted", data );
 
 });
 
 });
 
 };
+
+
