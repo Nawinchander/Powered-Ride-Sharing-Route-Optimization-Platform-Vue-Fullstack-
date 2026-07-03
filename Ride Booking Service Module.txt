@@ -38,3 +38,26 @@ backend/
         └── ride.socket.js
 
 
+frontend/
+└── src/
+    │
+    ├── api/
+    │   └── ride.api.js
+    │
+    ├── stores/
+    │   └── ride.store.js
+    │
+    ├── views/
+    │   └── BookRide.vue
+    │
+    ├── components/
+    │   └── ride/
+    │       ├── RideForm.vue
+    │       ├── RideCard.vue
+    │       └── RideStatus.vue
+    │
+    └── composables/
+        └── useRideSocket.js
+
+
+        
