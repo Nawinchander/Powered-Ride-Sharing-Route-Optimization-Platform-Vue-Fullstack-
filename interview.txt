@@ -96,4 +96,23 @@ Components → presentation logic
 
 This separation improves scalability and testability.
 
+Why use status transitions instead of boolean flags?
+
+Using:
+
+REQUESTED
+→ DRIVER_ASSIGNED
+→ ACCEPTED
+→ STARTED
+→ COMPLETED
+
+is easier to maintain than multiple booleans like:
+
+isAccepted
+isStarted
+isCompleted
+isCancelled
+
+because impossible states become impossible to represent.
+
 
