@@ -2,15 +2,9 @@
 
 <div>
 
-<input
-v-model="pickup"
-placeholder="Pickup"
-/>
+<input v-model="pickup" placeholder="Pickup" />
 
-<input
-v-model="destination"
-placeholder="Destination"
-/>
+<input v-model="destination"  placeholder="Destination" />
 
 <button @click="bookRide" Book Ride </button>
 
@@ -21,6 +15,8 @@ placeholder="Destination"
 <script setup>
 
 import { ref } from "vue";
+
+import socket from "../../composables/useRideSocket";
 
 import { useRideStore } from "../../stores/ride.store";
 
@@ -33,6 +29,8 @@ const store = useRideStore();
 const bookRide = async () => {
 
 await store.createRide({
+
+socket.emit( "ride-request", ride );
 
 pickupLocation: {
     address:
