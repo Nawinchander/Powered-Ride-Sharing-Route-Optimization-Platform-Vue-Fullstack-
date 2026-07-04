@@ -75,3 +75,25 @@ Why use Repository Pattern?
 It separates business logic from persistence logic and makes unit testing significantly ea
 
 
+
+Interview Questions
+Why use a Service Layer?
+
+Business logic should not live in controllers because it makes code harder to maintain and test.
+
+Why use a Repository Layer?
+
+Repositories isolate database operations and allow easy migration from MongoDB to another database later.
+
+Why use WebSockets for booking updates?
+
+Ride status changes happen in real time. Polling every few seconds creates unnecessary requests and increases infrastructure costs.
+
+Why separate API, Store and Components in the frontend?
+API layer → network communication
+Store layer → application state
+Components → presentation logic
+
+This separation improves scalability and testability.
+
+
