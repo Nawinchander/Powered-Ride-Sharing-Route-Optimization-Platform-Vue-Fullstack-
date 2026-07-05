@@ -34,3 +34,27 @@ Show Fare + ETA to Rider
 | Route Cache    | LRU Cache        |
 
 
+backend/src/
+│
+├── controllers/
+│   ├── pricing.controller.js
+│   └── eta.controller.js
+│
+├── services/
+│   ├── pricing.service.js
+│   └── eta.service.js
+│
+├── routes/
+│   ├── pricing.routes.js
+│   └── eta.routes.js
+│
+├── algorithms/
+│   ├── SlidingWindow.js
+│   ├── Dijkstra.js
+│   └── LRUCache.js
+│
+├── cache/
+│   └── route.cache.js
+│
+└── utils/
+    └── distance.js
