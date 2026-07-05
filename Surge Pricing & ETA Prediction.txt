@@ -1,0 +1,36 @@
+A strong next feature for this project is Surge Pricing & ETA Prediction.
+
+This feature is frequently discussed in interviews because it combines:
+
+Real-world business logic
+DSA
+Caching
+Sliding Window Algorithm
+Graph Algorithms
+Scalability
+
+
+Feature: Surge Pricing + ETA Engine
+Flow
+
+
+Ride Request
+    ↓
+Find Nearby Drivers
+    ↓
+Calculate Demand/Supply Ratio
+    ↓
+Apply Surge Multiplier
+    ↓
+Calculate ETA
+    ↓
+Show Fare + ETA to Rider
+
+
+| Feature        | DSA              |
+| -------------- | ---------------- |
+| Surge Pricing  | Sliding Window   |
+| ETA Prediction | Graph + Dijkstra |
+| Route Cache    | LRU Cache        |
+
+
