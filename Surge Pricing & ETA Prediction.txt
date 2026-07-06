@@ -61,5 +61,28 @@ backend/src/
 
 
 
+frontend/src/
+│
+├── api/
+│   ├── pricing.api.js
+│   └── eta.api.js
+│
+├── stores/
+│   ├── pricing.store.js
+│   └── eta.store.js
+│
+├── components/
+│   └── pricing/
+│       ├── FareEstimate.vue
+│       └── SurgeBadge.vue
+│
+├── components/
+│   └── eta/
+│       └── ETAWidget.vue
+│
+└── views/
+    └── FarePreview.vue
+
+    
 
 
