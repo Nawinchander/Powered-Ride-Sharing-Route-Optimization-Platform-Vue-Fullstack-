@@ -1,15 +1,6 @@
-const dijkstra =
-require(
-    "../algorithms/Dijkstra"
-);
+const dijkstra = require( "../algorithms/Dijkstra" );
 
-exports.calculateETA =
-(
-    graph,
-    source,
-    destination
-) => {
-
+exports.calculateETA = (graph, source, destination ) => {
     const distance =
         dijkstra(
             graph,
