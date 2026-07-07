@@ -117,19 +117,39 @@ because impossible states become impossible to represent.
 
 
 Interview Questions
+
 Why use Sliding Window for surge pricing?
 
 Because we only care about recent demand, such as the last 5 or 10 minutes.
 
-Without Sliding Window:
+Without Sliding Window: O(n)
 
-O(n)
-
-With Sliding Window:
-
-O(1)
+With Sliding Window: O(1)
 
 amortized updates.
+
+
+
+Why use Dijkstra instead of BFS?
+
+Road networks have different travel times and distances.
+
+BFS assumes all edges have equal cost.
+
+Dijkstra works with weighted graphs.
+
+Why cache route calculations?
+
+Popular routes like airport trips are requested repeatedly.
+
+Caching avoids recalculating the same route thousands of times.
+
+Why separate pricing into its own service?
+
+Pricing changes frequently due to business requirements.
+
+Keeping it isolated prevents changes from affecting ride booking logic.
+
 
 
 
