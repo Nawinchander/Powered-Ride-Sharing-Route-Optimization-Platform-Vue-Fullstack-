@@ -151,5 +151,20 @@ Pricing changes frequently due to business requirements.
 Keeping it isolated prevents changes from affecting ride booking logic.
 
 
+FAANG Follow-up Question
+
+How would you scale ETA calculations to millions of requests?
+
+Expected answer:
+
+Store popular routes in an Redis cache.
+Precompute frequent routes.
+Use distributed workers with BullMQ.
+Offload map calculations to a routing engine such as OSRM.
+Use asynchronous updates instead of recalculating on every location change.
+
+This is very close to how companies such as Uber and Lyft handle routing and pricing at scale.
+
+
 
 
