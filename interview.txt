@@ -116,3 +116,20 @@ isCancelled
 because impossible states become impossible to represent.
 
 
+Interview Questions
+Why use Sliding Window for surge pricing?
+
+Because we only care about recent demand, such as the last 5 or 10 minutes.
+
+Without Sliding Window:
+
+O(n)
+
+With Sliding Window:
+
+O(1)
+
+amortized updates.
+
+
+
