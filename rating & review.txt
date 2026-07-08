@@ -1,0 +1,17 @@
+Ratings & Reviews
+
+This module will include:
+
+Rate driver
+Rate rider
+Comments
+Average rating calculation
+Driver ranking
+Top-rated drivers
+Priority Queue integration
+Review moderation
+Interview questions
+
+Expected size: 40–50 files.
+
+
