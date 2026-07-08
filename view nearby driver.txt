@@ -1,0 +1,14 @@
+Feature 1 — View Nearby Drivers
+
+This module will include:
+
+Complete backend folder structure
+Every backend file with full code
+Complete frontend folder structure
+Every frontend file with full code
+MongoDB schema
+APIs
+Socket.IO integration
+Distance calculation (Haversine)
+Redis caching (optional)
+DSA explanation
