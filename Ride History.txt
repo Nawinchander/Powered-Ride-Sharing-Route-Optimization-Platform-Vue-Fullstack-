@@ -1,0 +1,17 @@
+This module will include:
+
+Rider ride history
+Driver trip history
+Pagination
+Filtering
+Sorting
+Search
+Repository pattern
+Service layer
+API layer
+Pinia store
+Interview questions
+
+Expected size: 35–50 files.
+
+
