@@ -1,0 +1,11 @@
+This module will include:
+
+Real-time location updates
+Driver location broadcasting
+Rider tracking screen
+Socket rooms
+Automatic reconnect
+Location throttling
+Frontend map integration
+Backend socket architecture
+Interview questions
