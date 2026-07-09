@@ -59,3 +59,16 @@ frontend/
 
 
 
+Ride-Share-Platform/
+│
+├── frontend/
+│
+├── backend/
+│
+├── docker/
+│
+├── docs/
+│
+└── README.md
+
+
