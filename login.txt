@@ -117,3 +117,23 @@ backend/
 └── package.json
 
 
+frontend/
+│
+├── src/
+│
+├── api/
+│   └── auth.api.js
+│
+├── stores/
+│   └── auth.store.js
+│
+├── router/
+│   └── index.js
+│
+├── views/
+│   └── Login.vue
+│
+├── App.vue
+└── main.js
+
+
