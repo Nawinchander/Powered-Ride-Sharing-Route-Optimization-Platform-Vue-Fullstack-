@@ -91,3 +91,29 @@ Modules I'll build
 ✅ System Design
 
 
+backend/
+│
+├── src/
+│
+├── config/
+│   └── db.js
+│
+├── models/
+│   └── User.js
+│
+├── controllers/
+│   └── auth.controller.js
+│
+├── middleware/
+│   └── auth.middleware.js
+│
+├── routes/
+│   └── auth.routes.js
+│
+├── app.js
+├── server.js
+│
+├── .env
+└── package.json
+
+
