@@ -32,4 +32,30 @@ backend/
 
 
 
-    
+frontend/
+└── src/
+    ├── api/
+    │   └── auth.api.js
+    │
+    ├── stores/
+    │   └── auth.store.js
+    │
+    ├── composables/
+    │   └── useAuth.js
+    │
+    ├── router/
+    │   └── index.js
+    │
+    ├── components/
+    │   └── auth/
+    │       ├── LoginForm.vue
+    │       └── LoginCard.vue
+    │
+    ├── views/
+    │   └── Login.vue
+    │
+    ├── App.vue
+    └── main.js
+
+
+
