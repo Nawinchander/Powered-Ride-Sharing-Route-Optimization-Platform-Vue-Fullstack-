@@ -72,3 +72,22 @@ Ride-Share-Platform/
 └── README.md
 
 
+Modules I'll build
+✅ Project Setup
+✅ Authentication
+✅ Ride Booking
+✅ Nearby Drivers
+✅ Live Tracking (Socket.IO)
+✅ Ride History
+✅ Ratings & Reviews
+✅ Driver Dashboard
+✅ Admin Dashboard
+✅ Redis Cache
+✅ BullMQ
+✅ Docker
+✅ CI/CD
+✅ Testing
+✅ Interview Questions
+✅ System Design
+
+
