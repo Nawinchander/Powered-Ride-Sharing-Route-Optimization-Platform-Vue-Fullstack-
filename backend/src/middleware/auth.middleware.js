@@ -1,28 +1,70 @@
-const jwt =
-require("jsonwebtoken");
+const jwt = require("jsonwebtoken");
 
-module.exports =
-(req, res, next) => {
+module.exports = (req,res,next)=>{
 
     const token =
-    req.headers.authorization
-    ?.split(" ")[1];
+    req.headers.authorization?.split(" ")[1];
 
-    if (!token) {
-        return res.status(401)
-        .json({
-            message:
-            "Unauthorized"
+    if(!token){
+
+        return res.status(401).json({
+            message:"Unauthorized"
         });
+
     }
 
-    const decoded =
-    jwt.verify(
-        token,
-        process.env.JWT_SECRET
-    );
+    try{
 
-    req.user = decoded;
+        const decoded =
+        jwt.verify(
+            token,
+            process.env.JWT_SECRET
+        );
 
-    next();
-};
+        req.user = decoded;
+
+        next();
+
+    }
+
+    catch(error){
+
+        return res.status(401).json({
+            message:"Invalid Token"
+        });
+
+    }
+
+}
+
+
+// const jwt = require("jsonwebtoken");
+
+// module.exports =
+// (req, res, next) => {
+
+//     const token =
+//     req.headers.authorization
+//     ?.split(" ")[1];
+
+//     if (!token) {
+//         return res.status(401)
+//         .json({
+//             message:
+//             "Unauthorized"
+//         });
+//     }
+
+//     const decoded =
+//     jwt.verify(
+//         token,
+//         process.env.JWT_SECRET
+//     );
+
+//     req.user = decoded;
+
+//     next();
+// };
+
+
+
