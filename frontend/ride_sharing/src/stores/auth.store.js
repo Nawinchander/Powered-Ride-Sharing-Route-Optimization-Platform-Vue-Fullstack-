@@ -1,66 +1,108 @@
+import { defineStore } from "pinia";
 
-import { defineStore }
-from "pinia";
-
-import api
-from "../api/auth.api";
+import api from "../api/auth.api";
 
 export const useAuthStore =
-defineStore(
-"auth",
+
+defineStore("auth",{
+
+state:()=>({
+
+    user:null,
+
+    token:null
+
+}),
+
+actions:{
+
+async login(email,password){
+
+const response = await api.post( "/auth/login",
 {
-    state: () => ({
-        token: null,
-        user: null
-    }),
+email,
+password
+} );
 
-    actions: {
+this.user = response.data.user;
 
-        async login(
-            email,
-            password
-        ) {
+this.token = response.data.token;
 
-            const response =
-            await api.post(
-                "/auth/login",
-                {
-                    email,
-                    password
-                }
-            );
+localStorage.setItem( "token", response.data.token );
 
-            this.token =
-            response.data.accessToken;
-        }
-    }
+}
+
+}
+
 });
-// import { defineStore } from "pinia";
 
-// import api from "../api/auth.api";
+
+
+
+
+
+// import { defineStore }
+// from "pinia";
+
+// import api
+// from "../api/auth.api";
 
 // export const useAuthStore =
-// defineStore("auth", {
-
+// defineStore(
+// "auth",
+// {
 //     state: () => ({
-//         token: null
+//         token: null,
+//         user: null
 //     }),
 
 //     actions: {
 
-//         async login(email, password) {
+//         async login(
+//             email,
+//             password
+//         ) {
 
 //             const response =
-//                 await api.post(
-//                     "/auth/login",
-//                     {
-//                         email,
-//                         password
-//                     }
-//                 );
+//             await api.post(
+//                 "/auth/login",
+//                 {
+//                     email,
+//                     password
+//                 }
+//             );
 
 //             this.token =
-//                 response.data.token;
+//             response.data.accessToken;
 //         }
 //     }
 // });
+// // import { defineStore } from "pinia";
+
+// // import api from "../api/auth.api";
+
+// // export const useAuthStore =
+// // defineStore("auth", {
+
+// //     state: () => ({
+// //         token: null
+// //     }),
+
+// //     actions: {
+
+// //         async login(email, password) {
+
+// //             const response =
+// //                 await api.post(
+// //                     "/auth/login",
+// //                     {
+// //                         email,
+// //                         password
+// //                     }
+// //                 );
+
+// //             this.token =
+// //                 response.data.token;
+// //         }
+// //     }
+// // });
