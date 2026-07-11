@@ -164,3 +164,21 @@ Vue Store
 Dashboard
 
 
+Interview Questions
+Why hash passwords?
+
+Passwords should never be stored in plain text. If the database is compromised, hashed passwords are much harder to exploit.
+
+Why use JWT?
+
+JWT enables stateless authentication, making it easier to scale across multiple backend instances.
+
+Why store the token?
+
+The frontend needs to send the token in the Authorization header for protected API requests.
+
+Why use middleware?
+
+Authentication middleware centralizes token verification, so protected routes don't have to duplicate the same logic.
+
+
