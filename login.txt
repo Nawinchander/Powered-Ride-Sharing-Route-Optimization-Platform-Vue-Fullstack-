@@ -137,3 +137,30 @@ frontend/
 └── main.js
 
 
+Vue Login Form
+        │
+        ▼
+Axios POST /api/auth/login
+        │
+        ▼
+Express Route
+        │
+        ▼
+Controller
+        │
+        ▼
+MongoDB User Lookup
+        │
+        ▼
+bcrypt.compare()
+        │
+        ▼
+JWT Token
+        │
+        ▼
+Vue Store
+        │
+        ▼
+Dashboard
+
+
