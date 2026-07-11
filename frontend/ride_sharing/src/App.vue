@@ -1,4 +1,17 @@
-<script setup></script>
+<template>
+
+<Login />
+
+</template>
+
+<script setup>
+
+import Login from "./views/Login.vue";
+
+</script>
+
+
+<!-- <script setup></script>
 
 <template>
   <h1>You did it!</h1>
@@ -8,4 +21,4 @@
   </p>
 </template>
 
-<style scoped></style>
+<style scoped></style> -->
