@@ -18,10 +18,7 @@
 
 import { ref } from "vue";
 
-import {
-useAuthStore
-}
-from "../stores/auth.store";
+import { useAuthStore } from "../stores/auth.store";
 
 const email = ref("");
 
@@ -33,13 +30,7 @@ const loginUser = async()=>{
 
 try{
 
-await authStore.login(
-
-email.value,
-
-password.value
-
-);
+await authStore.login( email.value, password.value );
 
 alert("Login Successful");
 
