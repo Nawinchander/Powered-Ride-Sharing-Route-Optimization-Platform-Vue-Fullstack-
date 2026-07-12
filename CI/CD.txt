@@ -6,4 +6,17 @@
     └── production.yml
 
 
-    
+    The pipelines would include:
+
+Install dependencies
+Lint
+Run backend unit/integration tests
+Run frontend unit/integration tests
+Run Cypress E2E tests
+Build frontend
+Build backend
+Build Docker images
+Deploy to staging
+Manual approval (optional)
+Deploy to production
+
