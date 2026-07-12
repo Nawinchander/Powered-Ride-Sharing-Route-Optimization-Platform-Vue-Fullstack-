@@ -26,3 +26,32 @@ backend/
 
 
 
+Tools
+
+Jest
+Supertest
+mongodb-memory-server (for isolated MongoDB tests)
+
+
+
+frontend/
+├── tests/
+│   ├── unit/
+│   │   ├── Login.spec.js
+│   │   ├── RideForm.spec.js
+│   │   ├── DriverCard.spec.js
+│   │   └── FareEstimate.spec.js
+│   │
+│   ├── integration/
+│   │   ├── LoginFlow.spec.js
+│   │   └── BookingFlow.spec.js
+│   │
+│   └── e2e/
+│       ├── login.cy.js
+│       ├── booking.cy.js
+│       └── tracking.cy.js
+│
+├── vitest.config.js
+└── cypress.config.js
+
+
