@@ -1,0 +1,28 @@
+backend/
+├── tests/
+│   ├── unit/
+│   │   ├── auth.service.test.js
+│   │   ├── ride.service.test.js
+│   │   ├── pricing.service.test.js
+│   │   ├── haversine.test.js
+│   │   └── priorityQueue.test.js
+│   │
+│   ├── integration/
+│   │   ├── auth.integration.test.js
+│   │   ├── ride.integration.test.js
+│   │   ├── tracking.integration.test.js
+│   │   └── rating.integration.test.js
+│   │
+│   ├── e2e/
+│   │   ├── login.e2e.test.js
+│   │   ├── booking.e2e.test.js
+│   │   └── driver.e2e.test.js
+│   │
+│   └── setup.js
+│
+├── jest.config.js
+└── package.json
+
+
+
+
