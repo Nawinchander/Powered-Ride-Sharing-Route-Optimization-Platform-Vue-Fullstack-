@@ -1,23 +1,15 @@
-const PriorityQueue =
-require("../src/algorithms/PriorityQueue");
+const PriorityQueue = require ("../src/algorithms/PriorityQueue");
 
-describe("Priority Queue", () => {
+describe("Priority Queue", () => { test("Insert Driver", () => {
 
-test("Insert Driver", () => {
+const queue = new PriorityQueue();
 
-const queue =
-new PriorityQueue();
+queue.insert({ score:2 });
 
-queue.insert({
-
-score:2
-
-});
-
-expect(
-queue.heap.length
-).toBe(1);
+expect( queue.heap.length ).toBe(1); 
 
 });
 
 });
+
+
