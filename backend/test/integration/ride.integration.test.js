@@ -1,25 +1,12 @@
-const request =
-require("supertest");
+const request = require("supertest");
 
-const app =
-require("../src/app");
+const app = require("../src/app");
 
-describe("Ride API",()=>{
+describe("Ride API",()=>{test("Create Ride",async()=>{
 
-test("Create Ride",async()=>{
+const response = await request(app).post("/api/rides")
 
-const response =
-await request(app)
-
-.post("/api/rides")
-
-.send({
-
-pickup:"A",
-
-destination:"B"
-
-});
+.send({ pickup:"A", destination:"B" });
 
 expect(response.status)
 .toBeDefined();
@@ -27,5 +14,6 @@ expect(response.status)
 });
 
 });
+
 
 
