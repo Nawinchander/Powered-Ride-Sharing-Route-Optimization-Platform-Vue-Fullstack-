@@ -60,3 +60,33 @@ Tools
 Vitest
 Vue Test Utils
 Cypress
+
+
+
+
+frontend/
+
+tests/
+
+unit/
+│
+├── Login.spec.js
+├── RideForm.spec.js
+├── DriverCard.spec.js
+└── FareEstimate.spec.js
+
+integration/
+
+BookingFlow.spec.js
+
+e2e/
+
+login.cy.js
+
+vitest.config.js
+
+cypress.config.js
+
+
+
+
