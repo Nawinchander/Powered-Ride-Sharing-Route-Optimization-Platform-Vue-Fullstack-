@@ -15,4 +15,17 @@ End-to-End (E2E) Test
 
 Q: What is an E2E Test?
 
+A: Simulates real user behavior by testing the entire application flow from the UI to the backend.
+
+Jest vs Vitest
+Jest	Vitest
+Common for Node.js backend	Optimized for Vite and Vue frontend
+Great for Express APIs	Fast component testing
+Supertest
+
+Q: Why use Supertest?
+
+A: It allows you to test Express API endpoints without manually running HTTP clients.
+
+
 
