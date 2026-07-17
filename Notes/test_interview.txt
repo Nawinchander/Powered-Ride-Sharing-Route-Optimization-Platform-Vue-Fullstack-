@@ -1,0 +1,18 @@
+Interview Questions
+Unit Test
+
+Q: What is a Unit Test?
+
+A: Tests a single function or method in isolation without external dependencies.
+
+Integration Test
+
+Q: What is an Integration Test?
+
+A: Verifies that multiple modules work together correctly, such as an API endpoint interacting with the database.
+
+End-to-End (E2E) Test
+
+Q: What is an E2E Test?
+
+
