@@ -28,4 +28,13 @@ Q: Why use Supertest?
 A: It allows you to test Express API endpoints without manually running HTTP clients.
 
 
+Cypress
+
+Q: Why use Cypress?
+
+A: It automates browser interactions, making it ideal for testing complete user workflows like logging in and booking a ride.
+
+These tests are intentionally simple but demonstrate the testing structure and tools that interviewers expect to see in a portfolio project. As your project grows, you can replace these starter tests with more comprehensive assertions and mocks.
+
+
 
