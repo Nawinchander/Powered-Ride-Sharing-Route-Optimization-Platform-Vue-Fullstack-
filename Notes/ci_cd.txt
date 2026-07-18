@@ -1,3 +1,19 @@
 //// CI CD 
 
 
+Ride-Share-Platform/
+│
+├── .github/
+│   └── workflows/
+│       ├── backend.yml
+│       ├── frontend.yml
+│       ├── staging.yml
+│       └── production.yml
+│
+├── backend/
+│
+├── frontend/
+│
+└── README.md
+
+
