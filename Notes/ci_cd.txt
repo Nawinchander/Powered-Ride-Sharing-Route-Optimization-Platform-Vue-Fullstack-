@@ -17,3 +17,16 @@ Ride-Share-Platform/
 └── README.md
 
 
+1. What is CI?
+
+Answer: Continuous Integration (CI) is the practice of automatically building and testing code whenever changes are pushed to the repository, helping catch issues early.
+
+2. What is CD?
+
+Answer: Continuous Delivery/Deployment (CD) automates the process of releasing applications to staging or production after successful builds and tests.
+
+3. Why use GitHub Actions?
+
+Answer: GitHub Actions integrates directly with GitHub repositories, making it easy to automate builds, tests, and deployments without additional CI servers.
+
+
