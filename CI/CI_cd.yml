@@ -1,0 +1,30 @@
+Developer
+      │
+      ▼
+Git Push
+      │
+      ▼
+GitHub
+      │
+      ▼
+GitHub Actions
+      │
+      ├─────────────┐
+      ▼             ▼
+ Backend CI    Frontend CI
+      │             │
+      └──────┬──────┘
+             ▼
+      Run Unit Tests
+             ▼
+      Run Integration Tests
+             ▼
+      Build Application
+             ▼
+      Deploy to Staging (develop)
+             ▼
+      Deploy to Production (main)
+
+
+
+
