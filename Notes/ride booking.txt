@@ -15,4 +15,22 @@ BookRide.vue
 RideList.vue
 App.vue updates
 
+We can split it into just two responses:
+
+Backend Ride Booking
+Folder structure
+Model
+Controller
+Service
+Routes
+app.js updates
+
+
+Frontend Ride Booking
+Axios API
+Pinia store
+BookRide.vue
+RideList.vue
+App.vue
+
 
