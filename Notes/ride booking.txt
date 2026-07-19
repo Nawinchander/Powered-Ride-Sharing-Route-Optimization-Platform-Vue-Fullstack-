@@ -1,0 +1,18 @@
+Even a simple ride-booking feature typically includes:
+
+Backend
+Ride.js
+ride.controller.js
+ride.service.js
+ride.routes.js
+app.js updates
+
+
+Frontend
+ride.api.js
+ride.store.js
+BookRide.vue
+RideList.vue
+App.vue updates
+
+
