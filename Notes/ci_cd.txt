@@ -30,3 +30,19 @@ Answer: Continuous Delivery/Deployment (CD) automates the process of releasing a
 Answer: GitHub Actions integrates directly with GitHub repositories, making it easy to automate builds, tests, and deployments without additional CI servers.
 
 
+4. Why separate backend and frontend workflows?
+
+Answer: They have different dependencies, build processes, and test suites. Keeping them separate speeds up execution and makes failures easier to diagnose.
+
+5. Why cache npm dependencies?
+
+Answer: Caching avoids reinstalling unchanged dependencies on every workflow run, significantly reducing build time.
+
+6. What happens if a test fails?
+
+Answer: The workflow stops at the failed step, preventing subsequent build or deployment stages from running. This helps ensure only verified code is deployed.
+
+This setup is simple enough for a portfolio project while demonstrating CI/CD concepts that interviewers commonly look for.
+
+
+
