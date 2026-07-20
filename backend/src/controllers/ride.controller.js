@@ -29,9 +29,7 @@ res.status(201).json(ride);
 // Get All Rides
 exports.getRides = (req, res) => {
 
-    res.json(
-        rideService.getRides()
-    );
+    res.json( rideService.getRides() );
 
 };
 
