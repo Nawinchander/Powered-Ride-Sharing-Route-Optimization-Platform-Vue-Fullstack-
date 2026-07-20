@@ -34,3 +34,26 @@ RideList.vue
 App.vue
 
 
+
+backend/
+│
+├── src/
+│
+├── controllers/
+│   └── ride.controller.js
+│
+├── services/
+│   └── ride.service.js
+│
+├── routes/
+│   └── ride.routes.js
+│
+├── models/
+│   └── Ride.js
+│
+├── app.js
+└── server.js
+
+
+
+
