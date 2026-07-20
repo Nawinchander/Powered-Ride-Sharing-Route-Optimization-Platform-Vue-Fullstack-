@@ -1,32 +1,16 @@
-const rideRepository =
-require(
-"../repositories/ride.repository"
-);
+const rideRepository = require("../repositories/ride.repository");
 
-exports.createRide =
-async (
-rideData
-) => {
+exports.createRide = async (rideData) => {
 
-    const ride =
-    await rideRepository
-    .createRide({
-        ...rideData,
-        status: "REQUESTED"
-    });
+    const ride = await rideRepository.createRide({...rideData, status: "REQUESTED"    });
 
     return ride;
 };
 
-exports.assignDriver =
-async (
-rideId,
-driverId
-) => {
+exports.assignDriver = async ( rideId, driverId) => {
 
     return rideRepository
-    .updateRide(
-        rideId,
+    .updateRide( rideId,
         {
             driverId,
             status:
@@ -34,3 +18,5 @@ driverId
         }
     );
 };
+
+
