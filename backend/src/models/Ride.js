@@ -48,6 +48,23 @@ const rideSchema = new mongoose.Schema(
 }
 );
 
+// Simple Ride Model
+
+class Ride {
+
+    constructor(id, pickup, destination) {
+
+        this.id = id;
+        this.pickup = pickup;
+        this.destination = destination;
+        this.status = "Pending";
+
+    }
+
+}
+
+module.exports = Ride;
+
 module.exports = mongoose.model(
     "Ride",
     rideSchema
