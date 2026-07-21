@@ -2,21 +2,15 @@ import { defineStore } from "pinia";
 
 import api from "../api/ride.api";
 
-export const useRideStore =
-defineStore("ride", {
+export const useRideStore = defineStore("ride", {
 
-state: () => ({
-
-    rides: []
-
-}),
+state: () => ({ rides: [] }),
 
 actions: {
 
 async createRide(ride) {
 
-const response =
-await api.post("/", ride);
+const response = await api.post("/", ride);
 
 this.rides.push(response.data);
 
@@ -24,8 +18,7 @@ this.rides.push(response.data);
 
 async getRides() {
 
-const response =
-await api.get("/");
+const response = await api.get("/");
 
 this.rides = response.data;
 
