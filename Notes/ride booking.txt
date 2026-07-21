@@ -62,5 +62,23 @@ backend/
 | GET    | `/api/rides` | Get All Rides |
 
 
+frontend/
+│
+├── src/
+│
+├── api/
+│   └── ride.api.js
+│
+├── stores/
+│   └── ride.store.js
+│
+├── views/
+│   ├── BookRide.vue
+│   └── RideList.vue
+│
+├── App.vue
+└── main.js
+
+
 
 
