@@ -3,6 +3,8 @@ const cors = require("cors");
 
 const authRoutes = require("./routes/auth.routes");
 
+const rideRoutes = require("./routes/ride.routes");
+
 const app = express();
 
 app.use(cors());
