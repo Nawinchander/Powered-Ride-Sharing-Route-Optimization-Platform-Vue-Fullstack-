@@ -2,9 +2,7 @@
 
 <div>
 
-<h1>
-Book Ride
-</h1>
+<h1> Book Ride </h1>
 
 <RideForm />
 
@@ -12,10 +10,10 @@ Book Ride
 
 </template>
 
+
 <script setup>
 
 import RideForm from "../components/ride/RideForm.vue";
-
 
 </script>
 
