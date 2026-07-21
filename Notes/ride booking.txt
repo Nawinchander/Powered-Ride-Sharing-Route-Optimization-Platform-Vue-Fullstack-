@@ -56,4 +56,11 @@ backend/
 
 
 
+| Method | URL          | Action        |
+| ------ | ------------ | ------------- |
+| POST   | `/api/rides` | Create Ride   |
+| GET    | `/api/rides` | Get All Rides |
+
+
+
 
