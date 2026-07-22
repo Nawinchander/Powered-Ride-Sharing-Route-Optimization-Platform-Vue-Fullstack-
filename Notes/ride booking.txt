@@ -116,4 +116,21 @@ Response
 Ride List
 
 
+Interview Questions
+1. Why use Service Layer?
+
+Answer: It separates business logic from controllers, making the code cleaner and easier to maintain.
+
+2. Why use a Store (Pinia)?
+
+Answer: Pinia provides centralized state management so multiple components can share the same ride data.
+
+3. Why use Axios?
+
+Answer: Axios simplifies making HTTP requests to the backend and handling responses.
+
+4. Why use Express Router?
+
+Answer: Routers organize related endpoints into separate modules, improving project structure.
+
 
