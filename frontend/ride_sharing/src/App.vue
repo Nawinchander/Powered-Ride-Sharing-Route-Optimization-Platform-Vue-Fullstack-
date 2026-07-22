@@ -10,9 +10,9 @@
 <script setup>
 
 import Login from "./views/Login.vue";
-import BookRide from "./views/BookRide.vue";
-import RideList from "./views/rideList.vue";
-import Ridelist from "./views/rideList.vue";
+import BookRide from "./views/Bookride.vue";
+
+import Ridelist from "./views/ridelist.vue";
 
 </script>
 
