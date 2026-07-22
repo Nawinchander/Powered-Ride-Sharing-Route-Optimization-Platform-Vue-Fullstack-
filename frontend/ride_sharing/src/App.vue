@@ -7,6 +7,11 @@
 <script setup>
 
 import Login from "./views/Login.vue";
+import BookRide
+from "./views/BookRide.vue";
+
+import RideList
+from "./views/RideList.vue";
 
 </script>
 
