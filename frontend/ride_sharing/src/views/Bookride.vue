@@ -21,6 +21,41 @@
 
 import RideForm from "../components/ride/RideForm.vue";
 
+
+import { ref } from "vue";
+
+import {
+useRideStore
+}
+from "../stores/ride.store";
+
+const pickup =
+ref("");
+
+const destination =
+ref("");
+
+const rideStore =
+useRideStore();
+
+const bookRide =
+async () => {
+
+await rideStore.createRide({
+
+pickup: pickup.value,
+
+destination:
+destination.value
+
+});
+
+pickup.value = "";
+
+destination.value = "";
+
+};
+
 </script>
 
 
