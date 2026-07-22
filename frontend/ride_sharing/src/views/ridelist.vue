@@ -6,30 +6,13 @@
 
 <h2>Ride List</h2>
 
-<button
-@click="rideStore.getRides()"
->
-
-Load Rides
-
-</button>
+<button @click="rideStore.getRides()" > Load Rides </button>
 
 <ul>
 
-<li
-v-for="ride in rideStore.rides"
-:key="ride.id"
->
+<li v-for="ride in rideStore.rides" :key="ride.id" >
 
-{{ ride.pickup }}
-
-➡️
-
-{{ ride.destination }}
-
--
-
-{{ ride.status }}
+{{ ride.pickup }} ➡️ {{ ride.destination }} - {{ ride.status }}
 
 </li>
 
@@ -41,13 +24,9 @@ v-for="ride in rideStore.rides"
 
 <script setup>
 
-import {
-useRideStore
-}
-from "../stores/ride.store";
+import { useRideStore } from "../stores/ride.store";
 
-const rideStore =
-useRideStore();
+const rideStore = useRideStore();
 
 </script>
 
