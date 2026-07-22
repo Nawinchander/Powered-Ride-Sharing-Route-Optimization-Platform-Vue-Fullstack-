@@ -133,4 +133,8 @@ Answer: Axios simplifies making HTTP requests to the backend and handling respon
 
 Answer: Routers organize related endpoints into separate modules, improving project structure.
 
+5. Why create a Ride model?
+
+Answer: The model defines the shape of a ride object, making the application data consistent.
+
 
