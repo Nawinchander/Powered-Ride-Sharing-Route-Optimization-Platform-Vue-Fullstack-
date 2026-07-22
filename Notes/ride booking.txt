@@ -81,4 +81,39 @@ frontend/
 
 
 
+User
+
+↓
+
+BookRide.vue
+
+↓
+
+Pinia Store
+
+↓
+
+Axios
+
+↓
+
+Express API
+
+↓
+
+Ride Service
+
+↓
+
+Ride Model
+
+↓
+
+Response
+
+↓
+
+Ride List
+
+
 
