@@ -1,17 +1,18 @@
 <template>
 
 <Login />
+<Bookride />
+<Ridelist />
 
 </template>
+
 
 <script setup>
 
 import Login from "./views/Login.vue";
-import BookRide
-from "./views/BookRide.vue";
-
-import RideList
-from "./views/RideList.vue";
+import BookRide from "./views/BookRide.vue";
+import RideList from "./views/rideList.vue";
+import Ridelist from "./views/rideList.vue";
 
 </script>
 
