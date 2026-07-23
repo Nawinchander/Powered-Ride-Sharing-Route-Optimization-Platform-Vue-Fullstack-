@@ -1,3 +1,18 @@
 POST /api/rides
 
 
+Request
+
+↓
+
+Read Body
+
+↓
+
+Call Service
+
+↓
+
+Return Response
+
+
