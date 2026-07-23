@@ -61,5 +61,71 @@ RideShare-App/
 └── README.md
 
 
+///// rider booking flow
+
+
+User
+
+│
+
+▼
+
+BookRide.vue
+
+│
+
+▼
+
+ride.store.js
+
+│
+
+▼
+
+ride.api.js
+
+│
+
+▼
+
+POST /api/rides
+
+│
+
+▼
+
+ride.controller.js
+
+│
+
+▼
+
+ride.service.js
+
+│
+
+▼
+
+Ride.js
+
+│
+
+▼
+
+Database
+
+│
+
+▼
+
+Success Response
+
+│
+
+▼
+
+RideList.vue
+
+
 
 
