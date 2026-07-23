@@ -1,0 +1,39 @@
+// architecture
+
+View
+
+↓
+
+Pinia Store
+
+↓
+
+Axios
+
+↓
+
+Backend API
+
+
+//// Vue Component Flow
+
+
+BookRide.vue
+
+↓
+
+Ride Store
+
+↓
+
+Axios
+
+↓
+
+Backend
+
+↓
+
+Ride List
+
+
