@@ -1,2 +1,18 @@
 // architecture
 
+View
+
+↓
+
+Pinia Store
+
+↓
+
+Axios
+
+↓
+
+Backend API
+
+
+//// Vue Component Flow
