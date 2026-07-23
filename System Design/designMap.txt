@@ -127,5 +127,38 @@ Success Response
 RideList.vue
 
 
+//// backend architecture
 
+
+HTTP Request
+
+        │
+
+        ▼
+
+Routes
+
+        │
+
+        ▼
+
+Controller
+
+        │
+
+        ▼
+
+Service
+
+        │
+
+        ▼
+
+Model
+
+        │
+
+        ▼
+
+Database
 
