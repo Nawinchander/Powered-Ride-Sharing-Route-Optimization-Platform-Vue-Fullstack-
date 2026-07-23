@@ -24,3 +24,42 @@
               MongoDB (or Memory Array)
 
 
+folder structure
+
+RideShare-App/
+
+│
+
+├── frontend/
+
+│      Vue.js
+
+│      Pinia
+
+│      Axios
+
+│
+
+├── backend/
+
+│      Express
+
+│      Controller
+
+│      Service
+
+│      Routes
+
+│      Models
+
+│
+
+├── docker/
+
+├── .github/
+
+└── README.md
+
+
+
+
