@@ -31,3 +31,17 @@ Create Ride
 
 Return Ride
 
+/// Model
+
+
+Ride
+
+↓
+
+Pickup
+
+Destination
+
+Status
+
+
