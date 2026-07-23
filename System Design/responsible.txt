@@ -16,3 +16,18 @@ Call Service
 Return Response
 
 
+// /service /// business logic 
+
+
+Pickup
+
+Destination
+
+↓
+
+Create Ride
+
+↓
+
+Return Ride
+
