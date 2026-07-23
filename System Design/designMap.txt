@@ -1,3 +1,26 @@
 /// map
 
 
+                          USER
+                            │
+                            ▼
+                 Vue.js Frontend (Vite)
+                            │
+                Axios HTTP Requests
+                            │
+                            ▼
+                  Node.js + Express API
+                            │
+        ┌──────────────┬──────────────┐
+        ▼              ▼              ▼
+   Controller      Service        Middleware
+        │              │              │
+        └──────────────┴──────────────┘
+                       │
+                       ▼
+                    Ride Model
+                       │
+                       ▼
+              MongoDB (or Memory Array)
+
+
