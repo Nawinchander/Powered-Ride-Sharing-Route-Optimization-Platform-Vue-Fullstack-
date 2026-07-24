@@ -1,5 +1,44 @@
 //// Future Scalable Design
 
+                 Load Balancer
+                        │
+        ┌───────────────┴───────────────┐
+        ▼                               ▼
+   Backend Server 1                Backend Server 2
+        │                               │
+        └───────────────┬───────────────┘
+                        ▼
+                     MongoDB
+
+
+
+If traffic increases, more backend servers can be added behind a load balancer without changing the frontend.
+
+
+Redis
+
+Purpose
+
+Cache nearby drivers
+Cache ride history
+Improve response time
+
+
+Socket.IO
+
+Purpose
+
+Live Driver Location
+Ride Accepted
+Ride Started
+Ride Completed
+BullMQ
+
+Purpose
+
+Send notifications
+Email receipts
+Background jobs
 
 
 
