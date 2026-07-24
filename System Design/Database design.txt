@@ -16,3 +16,20 @@ role
 
 // Ride Collection
 
+Ride
+
+id
+
+pickup
+
+destination
+
+status
+
+fare
+
+driverId
+
+userId
+
+
