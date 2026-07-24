@@ -1,3 +1,31 @@
 ///design 
 
 
+                   User
+                     │
+                     ▼
+              Vue.js Frontend
+                     │
+                 Axios API
+                     │
+                     ▼
+              Express Backend
+                     │
+        ┌────────────┼────────────┐
+        ▼            ▼            ▼
+     Routes     Controllers    Middleware
+                     │
+                     ▼
+                 Services
+                     │
+                     ▼
+                   Models
+                     │
+                     ▼
+             MongoDB / Memory
+                     │
+        ┌────────────┴────────────┐
+        ▼                         ▼
+     Socket.IO                 Redis (Optional)
+
+
