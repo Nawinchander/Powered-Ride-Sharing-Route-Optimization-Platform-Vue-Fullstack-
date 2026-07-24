@@ -19,5 +19,25 @@ DELETE  /api/rides/:id
 
 // example 
 
+{
+    "pickup":"Airport",
+
+    "destination":"Railway Station"
+}
+
+
+/// response
+
+{
+    "id":1,
+
+    "pickup":"Airport",
+
+    "destination":"Railway Station",
+
+    "status":"Pending"
+}
+
+
 
 
