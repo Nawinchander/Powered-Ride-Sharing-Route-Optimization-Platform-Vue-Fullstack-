@@ -12,3 +12,17 @@ Why use Axios instead of fetch()?
 Axios offers a cleaner API, automatic JSON handling, request/response interceptors, and simpler error handling, which is useful as the application grows.
 
 
+Why add Socket.IO later?
+
+Ride-sharing applications require real-time updates (driver accepted, driver arrived, ride completed). Socket.IO enables low-latency communication between the server and connected clients.
+
+How would you scale this application?
+Put a load balancer in front of multiple Express servers.
+Store data in MongoDB.
+Cache frequently accessed data (such as nearby drivers) with Redis.
+Use BullMQ or another job queue for background tasks like notifications and emails.
+Containerize the application with Docker and automate builds and deployments with GitHub Actions.
+
+This simple design is easy to understand, easy to explain during interviews, and provides a solid foundation for adding more advanced features later.
+
+
