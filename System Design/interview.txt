@@ -1,0 +1,14 @@
+Interview Questions
+Why separate Controller and Service?
+
+The controller handles HTTP requests and responses, while the service contains business logic. This separation makes the code easier to test and maintain.
+
+Why use Pinia?
+
+Pinia provides a centralized store for application state, allowing components like BookRide.vue and RideList.vue to share ride data without passing props through multiple levels.
+
+Why use Axios instead of fetch()?
+
+Axios offers a cleaner API, automatic JSON handling, request/response interceptors, and simpler error handling, which is useful as the application grows.
+
+
