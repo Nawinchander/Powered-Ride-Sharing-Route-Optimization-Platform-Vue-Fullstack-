@@ -1,3 +1,18 @@
 // user collection
 
 
+User
+
+id
+
+name
+
+email
+
+password
+
+role
+
+
+// Ride Collection
+
