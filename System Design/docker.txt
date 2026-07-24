@@ -1,0 +1,26 @@
+Docker
+
+
+Purpose
+
+Run frontend and backend consistently across development and deployment environments.
+
+DSA Used
+Nearby Driver
+
+Priority Queue / Min Heap
+
+Find nearest driver quickly.
+
+Distance
+
+Haversine Formula
+
+Calculate distance between pickup and driver.
+
+Ride Queue
+
+Queue (FIFO)
+
+Assign rides in the order they are received.
+
