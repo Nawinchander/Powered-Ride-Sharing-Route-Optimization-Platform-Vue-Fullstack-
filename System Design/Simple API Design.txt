@@ -1,1 +1,23 @@
 /// Simple API Design
+
+
+
+
+
+POST    /api/auth/login
+
+POST    /api/auth/register
+
+GET     /api/rides
+
+POST    /api/rides
+
+PUT     /api/rides/:id
+
+DELETE  /api/rides/:id
+
+
+// example 
+
+
+
