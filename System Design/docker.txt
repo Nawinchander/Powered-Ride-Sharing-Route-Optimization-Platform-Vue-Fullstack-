@@ -24,3 +24,14 @@ Queue (FIFO)
 
 Assign rides in the order they are received.
 
+Queue (FIFO)
+
+Assign rides in the order they are received.
+
+Ride History
+
+Array / List
+
+Store completed rides for a user.
+
+
