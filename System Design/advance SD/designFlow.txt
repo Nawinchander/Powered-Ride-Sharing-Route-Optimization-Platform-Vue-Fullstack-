@@ -1,3 +1,33 @@
 /// flow
 
 
+User Books Ride
+        │
+        ▼
+Authentication
+        │
+        ▼
+Ride Service
+        │
+        ▼
+Find Nearby Drivers
+        │
+        ▼
+Priority Queue
+        │
+        ▼
+Assign Best Driver
+        │
+        ▼
+Socket.IO
+        │
+        ▼
+Driver Accepts Ride
+        │
+        ▼
+Ride Starts
+        │
+        ▼
+Ride Ends
+
+
