@@ -18,4 +18,27 @@ Repository
       ▼
 MongoDB
 
+//// microservices
+
+
+
+               API Gateway
+                    │
+    ┌───────────────┼───────────────┐
+    ▼               ▼               ▼
+ Auth Service   Ride Service   Driver Service
+    │               │               │
+    ▼               ▼               ▼
+ User DB        Ride DB        Driver DB
+                    │
+                    ▼
+             Notification Service
+                    │
+                    ▼
+               Email / SMS
+
+
+
+
+
 
