@@ -1,0 +1,23 @@
+Driver Mobile
+
+↓
+
+GPS
+
+↓
+
+Socket.IO
+
+↓
+
+Backend
+
+↓
+
+Redis
+
+↓
+
+Rider Mobile
+
+
