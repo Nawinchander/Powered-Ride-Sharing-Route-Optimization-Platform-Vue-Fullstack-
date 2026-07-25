@@ -1,3 +1,21 @@
 /// Backend
 
 
+Client Request
+      │
+      ▼
+Express Route
+      │
+      ▼
+Controller
+      │
+      ▼
+Service
+      │
+      ▼
+Repository
+      │
+      ▼
+MongoDB
+
+
