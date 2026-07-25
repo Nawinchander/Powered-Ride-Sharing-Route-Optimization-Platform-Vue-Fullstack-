@@ -1,2 +1,25 @@
 //// high levels
 
+                 Vue.js Frontend
+                       │
+             Axios / Socket.IO
+                       │
+                API Gateway (Optional)
+                       │
+               Express Backend API
+                       │
+      ┌─────────┬───────────┬─────────┐
+      ▼         ▼           ▼         ▼
+ Authentication Ride     Driver    Payment
+ Service        Service  Service   Service
+      │         │           │         │
+      └─────────┴───────────┴─────────┘
+                    │
+                 MongoDB
+                    │
+                 Redis Cache
+                    │
+                 BullMQ Queue
+
+
+
