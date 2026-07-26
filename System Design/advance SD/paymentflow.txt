@@ -1,0 +1,25 @@
+Ride Completed
+
+↓
+
+Calculate Fare
+
+↓
+
+Apply Coupon
+
+↓
+
+Wallet/Card
+
+↓
+
+Payment Success
+
+↓
+
+Invoice
+
+
+
+
