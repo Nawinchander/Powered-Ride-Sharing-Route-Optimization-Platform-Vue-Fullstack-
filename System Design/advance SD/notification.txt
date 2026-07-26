@@ -1,3 +1,26 @@
 /// notification flow
 
 
+Ride Booked
+
+↓
+
+BullMQ Queue
+
+↓
+
+Worker
+
+↓
+
+Email
+
+↓
+
+SMS
+
+↓
+
+Push Notification
+
+
