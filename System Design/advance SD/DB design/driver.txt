@@ -1,3 +1,14 @@
 /// driver assign
 
 
+_id
+
+vehicle
+
+rating
+
+location
+
+isAvailable
+
+
