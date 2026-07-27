@@ -1,5 +1,22 @@
 /// ride design
 
+_id
+
+userId
+
+driverId
+
+pickup
+
+destination
+
+fare
+
+status
+
+createdAt
+
+
 
 
 
