@@ -1,2 +1,13 @@
 /// payment
 
+_id
+
+rideId
+
+amount
+
+method
+
+status
+
+
