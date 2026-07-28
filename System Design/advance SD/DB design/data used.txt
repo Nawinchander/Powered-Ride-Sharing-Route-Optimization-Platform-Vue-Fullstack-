@@ -2,3 +2,16 @@
 
 
 
+| Feature           | DSA               | Time Complexity |
+| ----------------- | ----------------- | --------------- |
+| Nearby Drivers    | Priority Queue    | O(log n)        |
+| Distance          | Haversine Formula | O(1)            |
+| Search Locations  | Trie              | O(k)            |
+| Notifications     | Queue             | O(1)            |
+| Ride Requests     | Queue             | O(1)            |
+| Route Calculation | Dijkstra          | O(E log V)      |
+| Surge Pricing     | Sliding Window    | O(n)            |
+| Cache             | LRU Cache         | O(1)            |
+
+
+
