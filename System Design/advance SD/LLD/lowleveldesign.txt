@@ -1,3 +1,26 @@
 /// low level design
 
 
+Route
+
+↓
+
+Controller
+
+↓
+
+Service
+
+↓
+
+Repository
+
+↓
+
+Model
+
+↓
+
+MongoDB
+
+
