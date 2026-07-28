@@ -2,3 +2,34 @@
 
 
 
+                 CDN
+
+                  │
+
+                  ▼
+
+          Load Balancer
+
+                  │
+
+      ┌───────────┴───────────┐
+
+      ▼                       ▼
+
+Backend 1                Backend 2
+
+      │                       │
+
+      └───────────┬───────────┘
+
+                  ▼
+
+              Redis Cache
+
+                  ▼
+
+              MongoDB Atlas
+
+
+
+
