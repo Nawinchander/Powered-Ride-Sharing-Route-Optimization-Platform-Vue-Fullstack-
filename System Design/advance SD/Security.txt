@@ -1,3 +1,32 @@
 /// security
 
 
+JWT Authentication
+
+↓
+
+Password Hashing
+
+↓
+
+Helmet
+
+↓
+
+CORS
+
+↓
+
+Rate Limiter
+
+↓
+
+Input Validation
+
+↓
+
+HTTPS
+
+
+
+
