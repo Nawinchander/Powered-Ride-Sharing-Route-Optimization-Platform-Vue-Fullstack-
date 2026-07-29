@@ -25,5 +25,23 @@ Answer
 Repositories isolate database access from business logic, making it easier to swap databases or mock data in tests.
 
 
+MongoDB
+Q5. Why MongoDB instead of MySQL?
+
+Answer
+
+Ride-related data (locations, driver status, ride history) often evolves. MongoDB's flexible schema adapts more easily to changing requirements.
+
+Q6. Why index location?
+
+Answer
+
+A geospatial (2dsphere) index speeds up nearby-driver searches significantly compared to scanning every driver.
+
+
+
+
+
+
 
 
