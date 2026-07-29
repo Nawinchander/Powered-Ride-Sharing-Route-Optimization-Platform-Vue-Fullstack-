@@ -39,6 +39,25 @@ Answer
 A geospatial (2dsphere) index speeds up nearby-driver searches significantly compared to scanning every driver.
 
 
+Redis
+Q7. Why Redis?
+
+Answer
+
+Redis stores frequently accessed or short-lived data such as online drivers, cached routes, and user sessions, reducing database load.
+
+Q8. What should be cached?
+
+Answer
+
+Nearby drivers
+Popular routes
+Fare estimates
+Active ride sessions
+User session data
+
+
+
 
 
 
