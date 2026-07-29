@@ -1,37 +1,23 @@
 //// deployment architecture
 
 GitHub
-
 ↓
-
 GitHub Actions
-
 ↓
-
 Docker
-
 ↓
-
 Docker Hub
-
 ↓
-
 AWS EC2
-
 ↓
-
 Nginx
-
 ↓
-
 Express
-
 ↓
-
 MongoDB Atlas
 
 
-
+///// 
 
 
 
