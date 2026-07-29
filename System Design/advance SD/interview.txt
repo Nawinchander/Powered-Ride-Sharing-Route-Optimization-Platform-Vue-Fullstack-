@@ -57,6 +57,43 @@ Active ride sessions
 User session data
 
 
+Socket.IO
+Q9. Why not use polling?
+
+Answer
+
+Polling repeatedly requests updates even when nothing changes. Socket.IO pushes updates instantly, reducing latency and unnecessary network traffic.
+
+Q10. Which events would you implement?
+ride-requested
+
+driver-found
+
+ride-accepted
+
+driver-arrived
+
+ride-started
+
+ride-completed
+
+ride-cancelled
+
+
+Vue.js
+Q11. Why Pinia?
+
+Answer
+
+Pinia provides centralized state management with a simpler API than Vuex and is the recommended state management solution for Vue 3.
+
+Q12. Why Axios?
+
+Answer
+
+Axios supports interceptors, automatic JSON transformation, request cancellation, and consistent error handling.
+
+
 
 
 
