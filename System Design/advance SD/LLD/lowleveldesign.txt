@@ -2,25 +2,16 @@
 
 
 Route
-
 ↓
-
 Controller
-
 ↓
-
 Service
-
 ↓
-
 Repository
-
 ↓
-
 Model
-
 ↓
-
 MongoDB
 
 
+/////
