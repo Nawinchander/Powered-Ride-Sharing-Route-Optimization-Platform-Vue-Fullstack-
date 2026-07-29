@@ -1,0 +1,14 @@
+Node.js
+Q1. Why Node.js for Ride Sharing?
+
+Answer
+
+Node.js uses an event-driven, non-blocking I/O model, making it well suited for handling many concurrent requests such as ride bookings, live tracking, and notifications.
+
+Q2. Why Express?
+
+Answer
+
+Express simplifies routing, middleware management, and API development while remaining lightweight.
+
+
