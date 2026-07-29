@@ -94,6 +94,20 @@ Answer
 Axios supports interceptors, automatic JSON transformation, request cancellation, and consistent error handling.
 
 
+Authentication
+Q13. Why JWT?
+
+Answer
+
+JWT enables stateless authentication, making horizontal scaling easier because servers don't need shared session storage.
+
+Q14. Where should JWT be stored?
+
+Answer
+
+For production, an HttpOnly Secure Cookie is generally preferred to reduce XSS risk. For a demo project, localStorage is acceptable if you understand its security trade-offs.
+
+
 
 
 
