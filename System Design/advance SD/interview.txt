@@ -12,3 +12,18 @@ Answer
 Express simplifies routing, middleware management, and API development while remaining lightweight.
 
 
+Q3. Why use the Service Layer?
+
+Answer
+
+It keeps business logic separate from controllers, improving maintainability and testability.
+
+Q4. Why Repository Pattern?
+
+Answer
+
+Repositories isolate database access from business logic, making it easier to swap databases or mock data in tests.
+
+
+
+
