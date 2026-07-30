@@ -1,0 +1,14 @@
+System Design
+
+Q15. How do you assign a driver?
+
+Answer
+
+Query nearby available drivers.
+Filter by availability and vehicle type.
+Rank using distance, rating, and idle time.
+Select the best candidate (e.g., using a priority queue).
+Send the request through Socket.IO.
+
+
+
