@@ -12,3 +12,16 @@ Send the request through Socket.IO.
 
 
 
+Q16. How would you scale to 1 million users?
+
+Answer
+
+Add a load balancer.
+Run multiple backend instances.
+Cache hot data in Redis.
+Use MongoDB sharding/replica sets.
+Move notifications to BullMQ workers.
+Serve frontend assets via a CDN.
+Split into microservices as the application grows.
+
+
