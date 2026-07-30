@@ -39,5 +39,17 @@ Detect socket disconnections, mark the driver offline, notify the rider if neede
 
 
 
+Q19. Why use BullMQ?
+
+Answer
+
+Background jobs such as emails, push notifications, receipts, and analytics should not block the main API request. A queue improves responsiveness and reliability.
+
+Q20. If MongoDB goes down, what happens?
+
+Answer
+
+The API should fail gracefully, return meaningful errors, retry transient operations where appropriate, and rely on replica sets or backups for recovery.
+
 
 
