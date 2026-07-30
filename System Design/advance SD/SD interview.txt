@@ -25,3 +25,19 @@ Serve frontend assets via a CDN.
 Split into microservices as the application grows.
 
 
+Q17. How do you avoid duplicate ride bookings?
+
+Answer
+
+Use idempotency keys or database transactions/locks so repeated requests don't create multiple rides.
+
+Q18. How do you handle driver disconnects?
+
+Answer
+
+Detect socket disconnections, mark the driver offline, notify the rider if needed, and search for another available driver.
+
+
+
+
+
