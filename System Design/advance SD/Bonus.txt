@@ -5,5 +5,8 @@ Design Uber for 10 million daily rides.
 Design a real-time driver tracking system.
 Design a surge pricing engine.
 Design a ride-matching algorithm.
+Design a notification system.
+Design a payment system with retries.
+Design trip history for billions of records.
 
 
