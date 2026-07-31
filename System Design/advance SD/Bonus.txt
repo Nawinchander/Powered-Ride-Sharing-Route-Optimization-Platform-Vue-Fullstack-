@@ -12,5 +12,7 @@ Design driver ranking based on rating and acceptance rate.
 Design location search with autocomplete.
 Design a coupon and wallet service.
 
+//// - This level of architecture and these interview questions are more than sufficient for a sample portfolio project while also preparing you for discussions around backend architecture, scalability, and full-stack system design in software engineering interviews.///
+
 
 
