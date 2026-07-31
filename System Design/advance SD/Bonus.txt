@@ -8,5 +8,9 @@ Design a ride-matching algorithm.
 Design a notification system.
 Design a payment system with retries.
 Design trip history for billions of records.
+Design driver ranking based on rating and acceptance rate.
+Design location search with autocomplete.
+Design a coupon and wallet service.
+
 
 
