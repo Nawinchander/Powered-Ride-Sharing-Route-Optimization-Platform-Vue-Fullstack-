@@ -21,6 +21,31 @@ Answer
 The controller handles HTTP requests and responses, while the service contains business logic. This separation improves readability, testing, and maintainability.
 
 
+Q3. What ride statuses would you maintain?
+Pending
 
+Searching Driver
+
+Accepted
+
+Driver Arriving
+
+Ride Started
+
+Ride Completed
+
+
+
+Q4. Why shouldn't business logic be written in routes?
+
+Answer
+
+Routes should only define endpoints. Business logic belongs in services to keep the code modular and reusable.
+
+Q5. How would you prevent duplicate ride requests?
+
+Answer
+
+Use request validation, idempotency keys, or disable the "Book Ride" button until the first request completes.
 
 
