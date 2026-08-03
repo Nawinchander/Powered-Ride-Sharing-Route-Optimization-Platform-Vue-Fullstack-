@@ -49,3 +49,29 @@ Answer
 Use request validation, idempotency keys, or disable the "Book Ride" button until the first request completes.
 
 
+
+REST API
+Q6. Difference between PUT and PATCH?
+
+Answer
+
+PUT replaces the entire resource.
+PATCH updates only specified fields.
+Q7. Why use HTTP status codes?
+
+Answer
+
+They communicate the result of an API request consistently.
+
+Examples:
+
+200 → Success
+201 → Created
+400 → Bad Request
+401 → Unauthorized
+404 → Not Found
+500 → Internal Server Error
+
+
+
+
