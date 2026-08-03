@@ -73,5 +73,29 @@ Examples:
 500 → Internal Server Error
 
 
+Q8. Why use JSON?
+
+Answer
+
+JSON is lightweight, language-independent, and widely supported.
+
+Q9. Why use Express Router?
+
+Answer
+
+It groups related endpoints, making the project easier to organize and maintain.
+
+Q10. What middleware have you used?
+
+Answer
+
+CORS
+JWT Authentication
+Logging
+Error Handling
+Validation
+Rate Limiting
+
+
 
 
