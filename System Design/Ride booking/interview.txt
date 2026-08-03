@@ -1,3 +1,26 @@
 /// ride bookings
 
 
+Q1. What happens when a user books a ride?
+
+Answer
+
+Validate the user.
+Validate pickup and destination.
+Create a ride request.
+Find nearby available drivers.
+Notify the selected driver.
+Update the ride status.
+Return ride details to the rider.
+
+
+Q2. Why separate Ride Controller and Ride Service?
+
+Answer
+
+The controller handles HTTP requests and responses, while the service contains business logic. This separation improves readability, testing, and maintainability.
+
+
+
+
+
