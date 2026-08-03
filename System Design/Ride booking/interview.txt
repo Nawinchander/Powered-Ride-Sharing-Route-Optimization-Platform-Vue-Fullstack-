@@ -98,4 +98,29 @@ Rate Limiting
 
 
 
+🔐 Authentication
+Q11. Why hash passwords?
+
+Answer
+
+To avoid storing passwords in plain text and protect users if the database is compromised.
+
+Q12. Why bcrypt?
+
+Answer
+
+bcrypt is designed for password hashing and includes salting to make brute-force attacks more difficult.
+
+Q13. Why shouldn't passwords be stored in MongoDB directly?
+
+Answer
+
+Plain-text passwords are a major security risk. They should always be hashed.
+
+Q14. Difference between Authentication and Authorization?
+
+Answer
+
+
+
 
